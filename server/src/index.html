@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
     <title>Document</title>
 </head>
 <body>
     <button onclick="printMovies()">Cargar Inf</button>
-    <section></section>
+    <div id="movie-grid"></div>
     <form id="MovieForm">
     <input type="text" id="title" placeholder="Pelicula a ingresar" required>
     <input type="text" id="actors" placeholder="Actors" required>
     <input type="text" id="synopsis" placeholder="Synopsis" required>
     <input type="text" id="genre" placeholder="Genre" required>
     <input type="text" id="rating" placeholder="Rating" required>
+    <input type="text" id="imageUrl" placeholder="URL de la imagen" required> <!--Con esta linea puedes agregar todas las imagenes-->
+
 
 
     <button type="submit">Agregar Pelicula</button>

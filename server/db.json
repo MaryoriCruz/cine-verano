@@ -1,14 +1,6 @@
 {
   "movies": [
     {
-      "id": "1",
-      "title": "Hacia rutas salvajes",
-      "actors": "Emile Hirsch, Marcia Gay Harden, William Hurt, Jena Malone, Catherine Keener, Hal Holbrook, Vince Vaughn, Kristen Stewart",
-      "synopsis": "Christopher McCandless abandona una vida acomodada, dona sus ahorros y se embarca en un viaje por América del Norte hasta adentrarse en el desierto de Alaska, buscando un encuentro profundo con la naturaleza. Su travesía se convierte en un símbolo de aventura, libertad y soledad.",
-      "genre": "Aventura",
-      "rating": "⭐7.6/10"
-    },
-    {
       "id": "2",
       "title": "La lengua de las mariposas",
       "actors": "Fernando Fernán Gómez (Don Gregorio), Manuel Lozano (Moncho), Uxía Blanco, Gonzalo Martín Uriarte, Alexis de los Santos, Tamar Novas",
@@ -17,12 +9,12 @@
       "rating": "⭐7.6/10"
     },
     {
-      "id": "3",
       "title": " El mejor verano de mi vida",
       "actors": "Leo Harlem (Curro), Alejandro Serrano (Nico), Toni Acosta, Maggie Civantos, Arturo Valls",
       "synopsis": "Curro (Leo Harlem), un vendedor frustrado, promete a su hijo unas vacaciones inolvidables si saca sobresalientes. Le toca cumplir la promesa y ambos viven una aventura veraniega entre situaciones hilarantes y emotivas que transforman su relación padre-hijo",
       "genre": "Drama",
-      "rating": "⭐10/10"
+      "rating": "⭐10/10",
+      "id": "3"
     },
     {
       "id": "4",

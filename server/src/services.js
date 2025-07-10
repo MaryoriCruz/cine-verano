@@ -22,6 +22,7 @@ const actors = document.getElementById("actors").value;
 const synopsis = document.getElementById("synopsis").value;
 const genre = document.getElementById("genre").value;
 const rating = document.getElementById("rating").value;
+const imageUrl = document.getElementById("imageUrl").value;
 
 const newMovie = {
     title,
@@ -29,6 +30,7 @@ const newMovie = {
     synopsis,
     genre,
     rating,
+    imageUrl, //Agregado último
 };
 
     await createMovie(newMovie);
@@ -69,21 +71,36 @@ if(response.ok){
 }
 
 //IMPRIMIR- print
-let moviesContainer = document.querySelector("section")
+let moviesContainer = document.getElementById("movie-grid");
 async function printMovies(){ 
     let movies = await getMovies(); 
-    moviesContainer.innerHTML = "" //aquí está limpiando, esto para que no se repita sino salga una nueva detras de otra
-    const movieList = movies.map(movie =>{
-        return moviesContainer.innerHTML +=
-        `<h1>${movie.title}<h1>
-        <p>${movie.actors}</p>
-        <p>${movie.synopsis}</p>
-        <p>${movie.genre}</p>
-        <p>${movie.rating}</p>
-        <button onclick="deleteMovie('${movie.id}')">Eliminar</button>
-        <button onclick="editMovie('${movie.id}', '${movie.title}', '${movie.actors}', '${movie.synopsis}', '${movie.genre}', '${movie.rating}')">Editar</button>`
+    moviesContainer.innerHTML = ""; // Limpia el contenedor
+
+    movies.forEach(movie => {
+        const card = document.createElement("div");
+        card.classList.add("movie-card");
+
+        card.style.backgroundImage = `url('${movie.imageUrl}')`; //Aqui incluimos nuestra imagen de fondo
+        card.style.backgroundSize = "cover";
+        card.style.backgroundPosition = "center";
+        card.style.color = "white";
+
+
+        card.innerHTML = `
+        <div class="overlay">
+            <h2>${movie.title}</h2>
+            <p><strong>Actores:</strong> ${movie.actors}</p>
+            <p><strong>Sinopsis:</strong> ${movie.synopsis}</p>
+            <p><strong>Género:</strong> ${movie.genre}</p>
+            <p><strong>Rating:</strong> ${movie.rating}</p>
+            <button onclick="deleteMovie('${movie.id}')">Eliminar</button>
+            <button onclick="editMovie('${movie.id}', '${movie.title}', '${movie.actors}', '${movie.synopsis}', '${movie.genre}', '${movie.rating}')">Editar</button>
+            <div>
+            `;
+
+        moviesContainer.appendChild(card);
     });
-    return movieList
+    return moviesList
 }
 
 //PUT: sirve para actualizar datos
@@ -120,4 +137,3 @@ function editMovie(id, currentTitle, currentActors, currentSynopsis, currentGenr
 
   updateMovie(id, editedMovie);
 }
-
