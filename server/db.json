@@ -1,0 +1,92 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Hacia rutas salvajes",
+      "actors": "Emile Hirsch, Marcia Gay Harden, William Hurt, Jena Malone, Catherine Keener, Hal Holbrook, Vince Vaughn, Kristen Stewart",
+      "synopsis": "Christopher McCandless abandona una vida acomodada, dona sus ahorros y se embarca en un viaje por América del Norte hasta adentrarse en el desierto de Alaska, buscando un encuentro profundo con la naturaleza. Su travesía se convierte en un símbolo de aventura, libertad y soledad.",
+      "genre": "Aventura",
+      "rating": "⭐7.6/10"
+    },
+    {
+      "id": "2",
+      "title": "La lengua de las mariposas",
+      "actors": "Fernando Fernán Gómez (Don Gregorio), Manuel Lozano (Moncho), Uxía Blanco, Gonzalo Martín Uriarte, Alexis de los Santos, Tamar Novas",
+      "synopsis": "Moncho, un niño de 8 años en la Galicia de 1936, crea un vínculo entrañable con Don Gregorio, su maestro. A través de enseñanzas sobre mariposas, literatura y naturaleza, descubre la libertad. Pero el avance del fascismo rompe esa inocencia y esa confianza.",
+      "genre": "Drama",
+      "rating": "⭐7.6/10"
+    },
+    {
+      "id": "3",
+      "title": " El mejor verano de mi vida",
+      "actors": "Leo Harlem (Curro), Alejandro Serrano (Nico), Toni Acosta, Maggie Civantos, Arturo Valls",
+      "synopsis": "Curro (Leo Harlem), un vendedor frustrado, promete a su hijo unas vacaciones inolvidables si saca sobresalientes. Le toca cumplir la promesa y ambos viven una aventura veraniega entre situaciones hilarantes y emotivas que transforman su relación padre-hijo",
+      "genre": "Drama",
+      "rating": "⭐10/10"
+    },
+    {
+      "id": "4",
+      "title": "El maestro que prometió el mar",
+      "actors": "Enric Auquer (Antoni Benaiges), Laia Costa (Ariadna), Luisa Gavasa, Ramón Agirre, Milo Taboada, Nicolás Calvo.",
+      "synopsis": "Ariadna (Laia Costa) viaja a Burgos para ayudar a su abuelo, quien busca los restos de su padre desaparecido en la Guerra Civil. Allí descubre la historia de Antoni Benaiges (Enric Auquer), un maestro republicano que, en los años 30, inspiró a sus alumnos con métodos innovadores y les prometió llevarlos a ver el mar",
+      "genre": "Drama",
+      "rating": "⭐7.2/10"
+    },
+    {
+      "id": "5",
+      "title": " Bajo el mismo techo",
+      "actors": "Silvia Abril, Jordi Sánchez, Daniel Guzmán, Malena Alterio, Álvaro Cervantes, Cristina Castaño, Ana Morgade, Darko Peric",
+      "synopsis": "Tras divorciarse, Nadia y Adrián descubren que no pueden permitirse vender su chalet, así que deben seguir viviendo juntos. Lo que comienza como una comedia ácida se convierte en una batalla sin cuartel, con humor crítico sobre la crisis inmobiliaria española",
+      "genre": "Comedia",
+      "rating": "⭐5.8/10"
+    },
+    {
+      "id": "7",
+      "title": "The Secret Life of Walter Mitty",
+      "actors": "Ben Stiller, Kristen Wiig, Sean Penn, Shirley MacLaine",
+      "synopsis": "Walter es un editor de negativos que vive en un mundo de fantasía. Cuando debe encontrar un negativo faltante, inicia un viaje real lleno de paisajes espectaculares, desafíos inesperados y un despertar personal.",
+      "genre": "Aventura",
+      "rating": "⭐7.6/10"
+    },
+    {
+      "id": "9",
+      "title": "Billy Elliot",
+      "actors": "Jamie Bell, Julie Walters, Gary Lewis",
+      "synopsis": "En plena huelga minera en Inglaterra, un niño de 11 años descubre su pasión por el ballet. Enfrentando prejuicios y resistencia familiar, lucha por seguir su vocación y encontrar su verdadero lugar.",
+      "genre": "Drama",
+      "rating": "⭐7.7/10"
+    },
+    {
+      "id": "dd6c",
+      "title": "El Señor de los Anillos: La Comunidad del Anillo",
+      "actors": "Elijah Wood, Ian McKellen, Viggo Mortensen, Sean Astin, Orlando Bloom, Cate Blanchett, Liv Tyler, Hugo Weaving, Christopher Lee",
+      "synopsis": "Frodo Bolsón hereda un anillo mágico que puede destruir el mundo si cae en manos del malvado Sauron. Junto a un grupo de valientes compañeros —hobbits, humanos, un elfo, un enano y un mago— inicia un épico viaje para destruir el Anillo Único en los fuegos del Monte del Destino.",
+      "genre": "Fantasía / Aventura / Épico",
+      "rating": "⭐ 8.8/10"
+    },
+    {
+      "id": "ef48",
+      "title": "Forrest Gump ",
+      "actors": "om Hanks, Robin Wright, Gary Sinise, Sally Field",
+      "synopsis": "Forrest Gump, un hombre con un coeficiente intelectual bajo pero un corazón inmenso, se ve envuelto en algunos de los eventos más importantes del siglo XX en EE. UU. Su inocencia, bondad y perseverancia lo llevan más lejos de lo que nadie imaginó.",
+      "genre": "Drama / Romance / Superación personal",
+      "rating": "⭐ 8.8/10"
+    },
+    {
+      "id": "8e1d",
+      "title": "Diecisiete",
+      "actors": "Biel Montoro, Nacho Sánchez, Itsaso Arana, Kandido Uranga, Iñigo Aranburu",
+      "synopsis": "Héctor, un adolescente de 17 años, escapa de un centro de menores en busca de un perro con el que formó un vínculo especial. Su hermano Ismael, que intenta reconducir su vida, lo acompaña en este emotivo viaje a través del norte de España. Juntos, enfrentarán heridas del pasado y buscarán una segunda oportunidad.",
+      "genre": "Drama / Comedia / Superación personal",
+      "rating": "⭐ 7.2/10"
+    },
+    {
+      "title": "Siempre a tu lado, Hachiko",
+      "actors": "Richard Gere, Joan Allen, Cary-Hiroyuki Tagawa, Sarah Roemer, Erick Avari",
+      "synopsis": "Basada en una historia real, esta conmovedora película narra la lealtad inquebrantable de Hachiko, un perro akita que espera cada día en la estación de tren a su dueño, incluso mucho después de su muerte. Un relato sobre el amor, la fidelidad y el vínculo eterno entre un hombre y su perro.",
+      "genre": "Drama / Familia / Superación personal",
+      "rating": "⭐ 8.1/10",
+      "id": "9bc9"
+    }
+  ]
+}
