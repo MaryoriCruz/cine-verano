@@ -1,20 +1,43 @@
 body {  
   font-family: Arial, sans-serif;
-  background-color: #000; /* Fondo negro */
+  background-color: #000; 
   margin: 0;
   padding: 20px;
-  color: #fff; /* Texto principal en blanco */
+  color: #fff; 
 }
+
+/* Inicio del NavBar */
+.navbar {
+  background-color: #000; 
+  color: #FFD700; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(255, 215, 0, 0.4);
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/*Final NavBar*/
 
 h1 {
   text-align: center;
-  color: #ffcc00; /* Amarillo fuerte */
+  color: #ffcc00; 
 }
 
 button {
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #ffcc00; /* Amarillo vibrante */
+  background-color: #ffcc00;
   color: #000;
   border: none;
   border-radius: 5px;
@@ -24,7 +47,7 @@ button {
 }
 
 button:hover {
-  background-color: #e6b800; /* Amarillo más oscuro */
+  background-color: #e6b800;
 }
 
 form {
@@ -53,7 +76,7 @@ input {
 }
 
 .movie-card {
-  background-color: rgba(255, 204, 0, 0.1); /* Fondo amarillo transparente */
+  background-color: rgba(255, 204, 0, 0.1);
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #ffcc00;
@@ -72,7 +95,7 @@ input {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Oscurece la imagen */
+  background-color: rgba(0, 0, 0, 0.5); 
   z-index: 1;
 }
 
@@ -84,21 +107,20 @@ input {
   background-position: center;
   color: white;
   box-shadow: 0 0 10px yellow;
+  height: 400px;
+  color: #fff;
 }
 
-/* Capa oscura encima de la imagen */
+
 .movie-card::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Oscurece la imagen */
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6); 
   z-index: 1;
 }
 
-/* El contenido de texto va encima de la capa oscura */
+
 .movie-card * {
   position: relative;
   z-index: 2;
@@ -123,4 +145,10 @@ input {
   margin-right: 10px;
   background-color: #ffcc00;
   color: #000;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
 }

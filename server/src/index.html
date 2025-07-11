@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Cine de Verano</title>
 </head>
 <body>
+    <nav class="navbar">
+    <div class="navbar-brand">🎥 Cine de Verano</div>
+    </nav>
     <button onclick="printMovies()">Cargar Inf</button>
     <div id="movie-grid"></div>
     <form id="MovieForm">
@@ -15,12 +18,11 @@
     <input type="text" id="synopsis" placeholder="Synopsis" required>
     <input type="text" id="genre" placeholder="Genre" required>
     <input type="text" id="rating" placeholder="Rating" required>
-    <input type="text" id="imageUrl" placeholder="URL de la imagen" required> <!--Con esta linea puedes agregar todas las imagenes-->
-
-
+    <input type="text" id="imageUrl" placeholder="URL de la imagen" required>
 
     <button type="submit">Agregar Pelicula</button>
     </form>
+
     <script src="services.js"></script>
 </body>
 </html>
