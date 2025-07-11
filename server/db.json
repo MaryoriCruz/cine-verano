@@ -1,14 +1,6 @@
 {
   "movies": [
     {
-      "title": " El mejor verano de mi vida",
-      "actors": "Leo Harlem (Curro), Alejandro Serrano (Nico), Toni Acosta, Maggie Civantos, Arturo Valls",
-      "synopsis": "Curro (Leo Harlem), un vendedor frustrado, promete a su hijo unas vacaciones inolvidables si saca sobresalientes. Le toca cumplir la promesa y ambos viven una aventura veraniega entre situaciones hilarantes y emotivas que transforman su relación padre-hijo",
-      "genre": "Drama",
-      "rating": "⭐10/10",
-      "id": "3"
-    },
-    {
       "id": "2419",
       "title": "La lengua de las mariposas",
       "actors": " Fernando Fernán Gómez (Don Gregorio), Manuel Lozano (Moncho), Uxía Blanco, Gonzalo Martín Uriarte, Alexis de los Santos, Tamar Novas",
@@ -61,6 +53,24 @@
       "genre": "Comedia",
       "rating": "⭐5.8/10",
       "imageUrl": "https://www.academiadecine.com/wp-content/uploads/2019/01/BEMT_33_5771_%C2%A9Manuel-Fiestas-1310x611.jpg"
+    },
+    {
+      "id": "dfed",
+      "title": "El mejor verano de mi vida",
+      "actors": "Leo Harlem (Curro), Alejandro Serrano (Nico), Toni Acosta, Maggie Civantos, Arturo Valls",
+      "synopsis": "Curro (Leo Harlem), un vendedor frustrado, promete a su hijo unas vacaciones inolvidables si saca sobresalientes. Le toca cumplir la promesa y ambos viven una aventura veraniega entre situaciones hilarantes y emotivas que transforman su relación padre-hijo",
+      "genre": " Drama/Familia/Comedia",
+      "rating": "⭐10/10",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAO-ayr2Ii7SWGicU31v8SrkFiPJQSZxlmSw&s"
+    },
+    {
+      "id": "5741",
+      "title": "Hacia rutas salvajes",
+      "actors": "Emile Hirsch, Marcia Gay Harden, William Hurt",
+      "synopsis": "Christopher McCandless lo deja todo para vivir una vida sin posesiones y en armonía con la naturaleza. En su camino por Estados Unidos hacia Alaska, encuentra personas, desafíos y momentos que redefinen el sentido de la libertad.",
+      "genre": "Drama / Aventura / Superación personal",
+      "rating": "⭐ 7.7/10",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRONcG0OWN_9jrrN0yWlKhKPCpXETYPTb7Cbw&s"
     }
   ]
 }
